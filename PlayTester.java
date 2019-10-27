@@ -1,20 +1,14 @@
-# COIT11134 - Sample Exam - BQ5 - Complete Missing Code
+// Practice Exam question solution by Mike OMalley.
 
-## Question 5   (5 MARKS)
-
-Insert the missing codes in the following Java program.
-
-
-```
-//Class PlayListener is an action listener
-import javax.swing.JButton;
+//Class PlayListener is an action listener import javax.swing.JButton;
 import javax.swing.JFrame;
 
 
-// *** Missing code:
 //Complete the two missing import statements below:
-import java.awt.event.
-import java.awt.event.
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
+import javax.swing.JButton;
 
 
 class PlayListener  implements ActionListener
@@ -39,12 +33,8 @@ public class PlayTester extends JFrame
       //Write your code related to ‘Start Play’ button-click
       //event handled by the PlayListener
 
-      // *** Missing code:
       //Missing lines of codes
-
-
-
-
+      bt.addActionListener (new PlayListener ());
    }
 
 
@@ -56,4 +46,3 @@ public class PlayTester extends JFrame
       aGame.setVisible(true);
    }
 }
-~~~
